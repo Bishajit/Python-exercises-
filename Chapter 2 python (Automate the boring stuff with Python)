@@ -11,3 +11,61 @@
  False or True is False
  not True is False
  not False is True
+ 4)
+False
+False
+True
+False
+False
+True
+another.
+5)   
+<
+>
+<=
+=>
+==
+!=
+6)
+Equal to operator (==) compares two variable and decides if they are equivalent to each other. The assignment operator assigns one variable to another.
+7)
+Conditons are expressions evaluate to true or false values.
+8)
+spam = 0
+(Block 1)
+if spam == 10:
+    print('eggs')
+(Block 2)
+    if spam > 5:
+        print('bacon')
+(Block 3)
+    else:
+        print('ham')
+    print('spam')
+print('spam')
+
+9)
+if spam==1:
+     print(hello)
+elif spam==2:
+     print(Greetings)
+else:
+     print('greetings!')
+10)
+CTRL-C is  to stop a infinite loop. 
+11)
+A break will exit a loop and if there is other code after the break, it will start that. While continue jumps the  loop back to the start of the loop. 
+12)
+Range(10) prints the numbers from 0 to 9 in a for loop. And range(0,10,1) print 0 to 9. Range (0,10,1) does the same thing as well.  
+13)
+#code for loop printing 1 to 10 is 
+for i in range(11):
+    print(i)
+#code for loop printing 1 to 10 in while loop is 
+n=0
+while n <= 9:
+    n += 1
+    print(n)
+14)
+ The function can be called by spam.bacon()
+
