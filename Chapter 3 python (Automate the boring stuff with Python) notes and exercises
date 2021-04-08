@@ -24,4 +24,37 @@ eggs = 'global'
 bacon()
 print(eggs) # prints 'global'
 
+#running sameName2.py
+def spam():
+   global eggs
+   eggs = 'spam'
 
+eggs = 'global'
+spam()
+print(eggs)
+
+#running sameName3.py
+def spam():
+    global eggs
+    eggs = 'spam' # this is the global
+
+def bacon():
+    eggs = 'bacon' # this is a local
+def ham():
+    print(eggs) # this is the global
+
+eggs = 42 # this is the global
+spam()
+print(eggs)
+
+#running Exceptions
+def spam(divideBy):
+    return 42 / divideBy
+
+try:
+    print(spam(2))
+    print(spam(12))
+    print(spam(0))
+    print(spam(1))
+except ZeroDivisionError:
+    print('Error: Invalid argument.')
