@@ -1,1 +1,34 @@
-
+1)
+ [] symbol is a list with an opening bracket and a closing bracket. A list contains multiple values in ordered sequence. Values inside are also called called items.  
+2)
+spam[3] = 'Hello' 
+3)
+ a
+4)
+d
+5)
+a,b
+6)
+1
+7)
+[3.14, 'cat', 11, 'cat', True, 99]
+8)
+[3.14, 11, 'cat', True]
+9)
++= and *=
+10) 
+append() adds the value at the end of the list. While insert() method can insert in any index of a list. 
+11) 
+Two ways to remove values from a list are remove() and del().del() is better when you know the index you want to remove while remove() is better for when you know the value you want to delete.
+12)
+Both  list and strings are similar because they can be both be passed to len(). Both can be used in loopos, also beadded ussing + operator  and multoiplied using * operator. And both can use "in" and "not" operators.
+13) 
+Lists and tupples are different because lists are mutable while tupples are immutable. Mutable means data like list can be added removed or changed, while immutable data like tupple cannot be changed.
+14)
+That value 42 will not change inside a tupple.
+15) 
+To turn a list into tupple you type tuple([]) and list into tupples would be list(()).
+16)
+They contain references to list values
+17)
+copy() create reference to original object. while deepcopy creates new object and does real copy of original to new one.
