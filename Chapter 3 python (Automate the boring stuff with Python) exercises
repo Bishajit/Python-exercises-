@@ -1,0 +1,17 @@
+1)
+Code for an empty dictionary looks like this
+myCat = {}
+2)
+myCat = {'foo':'42'}
+3) 
+The difference between dictionaries and lists are that items in dictionaries are unordered while lists have items ordered. Also in dictionaries you have keys that have values which isnt the case in.Unlike list where items are accessed through their position or index, definitions access items through calling on key or keys.
+4)
+If you try to access 'foo' if spam is {'bar':100}, then  you won't be able to access it because 'foo' is not in the dictionary of spam. You get the KeyError. 
+5)
+The expression'cat' in the dictionary spam can either be a key or a value. However the expression 'cat' in spam.keys() can only be a key.
+6)
+The expression'cat' in the dictionary spam can either be a key or a value. However the expression 'cat' in  spam.value can only be a value.
+7)
+spam.setdefault('color', 'black')
+8)
+pprint.pprint()
