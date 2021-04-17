@@ -1,1 +1,32 @@
+1)
+Escape characters lets you use characters that would be othewise imposible to put into a string. Escape character consist of the (\) character followed by a string.
+2)
+\n represents new line. And \t represents Tab.
+3)
+If you have a possessive apostrophe character then you can use \ so it does not confuse the computer when your using ' ' to sorround a string. For example  print(r'That is Carol\'s cat.')
+4)
+Since "Howl's Moving Castle"  string is not being sorounded by '' then it would not need a escape character because a apostrophe wouldn't confuse the computer when it is sorounded by double quoatation marks such as "". 
+5)
+You can use (''' ''') triple quotes if you don't want to use \n to start a new line. 
+6)
+	'Hello world!'[1] evaluates to '1'
 
+	'Hello world!'[0:5] evaluates to 'Hello'
+
+	'Hello world!'[:5] evaluates to 'Hello'
+
+	'Hello world!'[3:] evaluates to 'elo world' 
+7)
+	'Hello'.upper() evaluates to 'HELLO'
+
+	'Hello'.upper().isupper() evaluates to 'True'
+
+	'Hello'.upper().lower() evaluates 'hello'
+8)
+	'Remember, remember, the fifth of November.'.split() evaluates to  [ "Remember", "remembner", "the", "fifth", "of", "November"]
+
+	'-'.join('There can be only one.'.split()) evaluates to 'Therecanbeonlyone.'
+9)
+You can use the method .rjust to right-justify, and .ljust to left -justfy, also .center to center a string.  
+10)
+To trim the begining or end of string the methods of .rstrip() or .lstrip() would be used.
