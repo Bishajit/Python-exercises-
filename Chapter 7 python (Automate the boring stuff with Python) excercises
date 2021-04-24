@@ -2,4 +2,6 @@
  re.compile() function that creates Regex objects
  2)
  '\d\d\d-\d\d\d-\d\d\d\d'is the raw string to create a Regex object. 
+ 3)
+ The search() will return none if the regex pattern is not found in the string. However if it is found, search() will return Match object.
  
