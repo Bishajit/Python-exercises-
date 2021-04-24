@@ -1,2 +1,5 @@
  1)
  re.compile() function that creates Regex objects
+ 2)
+ '\d\d\d-\d\d\d-\d\d\d\d'is the raw string to create a Regex object. 
+ 
