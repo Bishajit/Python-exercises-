@@ -3,5 +3,7 @@
  2)
  '\d\d\d-\d\d\d-\d\d\d\d'is the raw string to create a Regex object. 
  3)
- The search() will return none if the regex pattern is not found in the string. However if it is found, search() will return Match object.
+ The search() will return none if the regex pattern is not found in the string. However if it is found, search() will return Match object
+ 4)
+ The search () method returns none if no regex pattern are found. Other wise it returns the match object.
  
