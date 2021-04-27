@@ -10,4 +10,7 @@
  Group 2 returns (\d\d\d-\d\d\d\d) Group 1 returns (\d\d\d) Group 0 returns (\d\d\d) (\d\d\d-\d\d\d\d)
  6)
  To  specify that you want a regex to match actual parentheses and period characters, you would use the (/) escape character.
- 
+ 7) 
+ findall() returns the strings that are matched in the searched string. If there are groups in the searched string then findall() will return tuples. 
+ 8)
+ | character is called a pipe and they signify or.
