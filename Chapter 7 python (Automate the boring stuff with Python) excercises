@@ -13,4 +13,7 @@
  7) 
  findall() returns the strings that are matched in the searched string. If there are groups in the searched string then findall() will return tuples. 
  8)
- | character is called a pipe and they signify or.
+ | character is called a pipe and it signifies or in a regular expresion.
+ 9)
+  Two things does the ? character signify in regular expressions is the pattern it presides over is optional. And the second thing ? can signify is a actual question mark with (\?).
+  10)
