@@ -17,3 +17,4 @@
  9)
   Two things does the ? character signify in regular expressions is the pattern it presides over is optional. And the second thing ? can signify is a actual question mark with (\?).
   10)
+  In regular espressions * matches zero or more of the preceding group  while + matches one or more of the preceding group.
