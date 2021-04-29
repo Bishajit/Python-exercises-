@@ -18,3 +18,10 @@
   Two things does the ? character signify in regular expressions is the pattern it presides over is optional. And the second thing ? can signify is a actual question mark with (\?).
   10)
   In regular espressions * matches zero or more of the preceding group  while + matches one or more of the preceding group.
+  11)
+  {3} in a regular expression will repeat a group 3 times. {3,5} in a regular expression will repeat the expression from 3 which is the minimum and then continue to do this by increasing one until it reaches 5 which is the maximum
+ 12)
+ \d signifies any numeric digit from 0 to 9 in a regular expression. \w signifies any character that is not a letter, numeric digit, or the underscore character.\s signifies any space, tab, or newline character.
+ 13)
+ 
+ 
