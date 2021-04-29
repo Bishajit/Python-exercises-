@@ -23,5 +23,8 @@
  12)
  \d signifies any numeric digit from 0 to 9 in a regular expression. \w signifies any character that is not a letter, numeric digit, or the underscore character.\s signifies any space, tab, or newline character.
  13)
+In a regular expression\D signifies any character that is not a numeric digit from 0 to 9. In a regular expression  \W represents any character that is not a letter, numeric digit, or the underscore character. In a regular expression \S represent any character that is not a space, tab, or newline.
+14)
+
  
  
