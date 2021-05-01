@@ -25,6 +25,7 @@
  13)
 In a regular expression\D signifies any character that is not a numeric digit from 0 to 9. In a regular expression  \W represents any character that is not a letter, numeric digit, or the underscore character. In a regular expression \S represent any character that is not a space, tab, or newline.
 14)
+To make a regular expression case-insensitive, you would add re.I top the code.
 
  
  
