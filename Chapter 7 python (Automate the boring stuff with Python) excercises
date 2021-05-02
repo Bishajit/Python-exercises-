@@ -26,6 +26,15 @@
 In a regular expression\D signifies any character that is not a numeric digit from 0 to 9. In a regular expression  \W represents any character that is not a letter, numeric digit, or the underscore character. In a regular expression \S represent any character that is not a space, tab, or newline.
 14)
 To make a regular expression case-insensitive, you would add re.I top the code.
-
+15)
+ . character normally match any character except for a newline. Also. character will match just one character, which is why the match for the text flat in the previous example matched only lat.
+By passing re.DOTALL as the second argument to re.compile(), you can make the dot character match all characters, including the newline character.
+16)
+.* performs a greedy match while .*? performs a non greedy match. ]
+17)
+ [a-z0-9]
+18)
+ 'X drummers, X pipers, five rings, X hens'
+ 19)
  
  
