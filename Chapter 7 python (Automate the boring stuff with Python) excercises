@@ -36,5 +36,4 @@ By passing re.DOTALL as the second argument to re.compile(), you can make the do
 18)
  'X drummers, X pipers, five rings, X hens'
  19)
- 
- 
+ passing re.VERBOSE as the second argument to re.compile() allow you to add whitespace and comments to the string passed to re.compile()
