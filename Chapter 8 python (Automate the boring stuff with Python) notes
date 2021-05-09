@@ -7,3 +7,9 @@ for filename in myFiles:
 #The PyInputPlus Module
 for filename in myFiles:
         print(os.path.join('C:\\Users\\asweigart', filename)
+
+#os.getcwd()
+import os
+os.getcwd()
+os.chdir('C:\\Windows\\System32')
+os.getcwd()
