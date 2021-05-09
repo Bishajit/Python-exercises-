@@ -12,9 +12,15 @@ for filename in myFiles:
 import os
 os.getcwd()
 os.chdir('C:\\Windows\\System32')
-os.getcwd()\
+os.getcwd()
 
+#os.chdir()
+import os
 
 #os.getcwd()
 import os
 os.makedirs('C:\\delicious\\walnut\\waffles')
+
+#Absolute vs. Relative Paths
+An absolute path, which always begins with the root folder
+A relative path, which is relative to the program’s current working directory
