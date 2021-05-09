@@ -12,4 +12,9 @@ for filename in myFiles:
 import os
 os.getcwd()
 os.chdir('C:\\Windows\\System32')
-os.getcwd()
+os.getcwd()\
+
+
+#os.getcwd()
+import os
+os.makedirs('C:\\delicious\\walnut\\waffles')
