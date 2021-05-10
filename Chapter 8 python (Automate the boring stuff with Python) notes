@@ -24,3 +24,9 @@ os.makedirs('C:\\delicious\\walnut\\waffles')
 #Absolute vs. Relative Paths
 An absolute path, which always begins with the root folder
 A relative path, which is relative to the program’s current working directory
+
+#Handling Absolute and Relative Paths
+os.path.abspath('.')
+os.path.abspath('.\\Scripts')
+os.path.isabs('.')
+os.path.isabs(os.path.abspath('.'))
