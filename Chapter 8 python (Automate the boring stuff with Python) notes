@@ -34,3 +34,6 @@ os.path.isabs(os.path.abspath('.'))
 os.path.relpath('C:\\Windows', 'C:\\')
 os.path.relpath('C:\\Windows', 'C:\\spam\\eggs')
 os.getcwd()
+
+path = 'C:\\Windows\\System32\\calc.exe'
+>>> os.path.basename(path)
