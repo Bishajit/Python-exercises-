@@ -1,6 +1,8 @@
 1. What is a relative path relative to?
+ relative path- Path to the program's current working directory. 
 
 2. What does an absolute path start with?
+Absilute path always starts with the root folder. 
 
 3. What do the os.getcwd() and os.chdir() functions do?
 
