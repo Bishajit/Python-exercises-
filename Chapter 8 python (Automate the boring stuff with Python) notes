@@ -30,3 +30,7 @@ os.path.abspath('.')
 os.path.abspath('.\\Scripts')
 os.path.isabs('.')
 os.path.isabs(os.path.abspath('.'))
+
+os.path.relpath('C:\\Windows', 'C:\\')
+os.path.relpath('C:\\Windows', 'C:\\spam\\eggs')
+os.getcwd()
