@@ -25,7 +25,26 @@ os.makedirs('C:\\delicious\\walnut\\waffles')
 An absolute path, which always begins with the root folder
 A relative path, which is relative to the program’s current working directory
 
+#creating new folders using the os.makedirs() function
+import os
+os.makedirs('C:\\delicious\\walnut\\waffles')
+
+#make a path from directory
+from pathlib import Path
+Path(r'C:\Users\Al\spam').mkdir()
+
 #Handling Absolute and Relative Paths
+Path.cwd()
+Path.cwd().is_absolute()
+Path('spam/bacon/eggs').is_absolute()
+
+ Path('my/relative/path')
+ Path.cwd() / Path('my/relative/path')
+ 
+ Path('my/relative/path')
+ Path.home() / Path('my/relative/path')
+
+#os path
 os.path.abspath('.')
 os.path.abspath('.\\Scripts')
 os.path.isabs('.')
