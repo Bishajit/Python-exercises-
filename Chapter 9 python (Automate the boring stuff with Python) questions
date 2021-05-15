@@ -5,6 +5,7 @@
 Absilute path always starts with the root folder. 
 
 3. What do the os.getcwd() and os.chdir() functions do?
+os.getcwd() gets the current working directory and os.chdir() changes the directory.
 
 4. What are the . and .. folders?
 
