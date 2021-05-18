@@ -54,6 +54,10 @@ os.path.relpath('C:\\Windows', 'C:\\')
 os.path.relpath('C:\\Windows', 'C:\\spam\\eggs')
 os.getcwd()
 
+#os.path.dirname(path)
 path = 'C:\\Windows\\System32\\calc.exe'
 os.path.basename(path)
 os.path.dirname(path)
+
+calcFilePath = 'C:\\Windows\\System32\\calc.exe'
+os.path.split(calcFilePath)
