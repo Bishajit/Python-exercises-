@@ -11,9 +11,10 @@ os.getcwd() gets the current working directory and os.chdir() changes the direct
 . is the current working directory while .. is the root folder.
 
 5. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
-bacon is the dir name and  C:\ is the base name
+spam.txt is the dir name and  C:\bacon\eggs\spamis the base name
 
 6. What are the three “mode” arguments that can be passed to the open() function?
+
 
 7. What happens if an existing file is opened in write mode?
 
