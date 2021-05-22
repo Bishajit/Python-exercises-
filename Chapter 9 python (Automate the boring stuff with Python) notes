@@ -70,3 +70,7 @@ os.path.isfile('C:\\Windows\\System32')
 os.path.isdir('C:\\Windows\\System32\\calc.exe')
 os.path.isfile('C:\\Windows\\System32\\calc.exe')
 os.path.exists('D:\\')
+
+#Opening Files with the open() Function
+helloFile = open('C:\\Users\\your_home_folder\\hello.txt')
+helloFile = open('/Users/your_home_folder/hello.txt')
