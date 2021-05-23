@@ -74,3 +74,7 @@ os.path.exists('D:\\')
 #Opening Files with the open() Function
 helloFile = open('C:\\Users\\your_home_folder\\hello.txt')
 helloFile = open('/Users/your_home_folder/hello.txt')
+helloContent = helloFile.read()
+helloContent
+sonnetFile = open('sonnet29.txt')
+sonnetFile.readlines()
