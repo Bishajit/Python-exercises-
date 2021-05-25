@@ -14,7 +14,7 @@ os.getcwd() gets the current working directory and os.chdir() changes the direct
 spam.txt is the dir name and  C:\bacon\eggs\spamis the base name
 
 6. What are the three “mode” arguments that can be passed to the open() function?
-Anchor, parent, and name
+absolute path, absolute path, relative path
 
 
 7. What happens if an existing file is opened in write mode?
