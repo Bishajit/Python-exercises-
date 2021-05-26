@@ -94,4 +94,7 @@ baconFile.close()
 print(content)
 
 #Saving Variables with the shelve Module
-
+import shelve
+shelfFile = shelve.open('mydata')
+cats = ['Zophie', 'Pooka', 'Simon']
+shelfFile.close()
