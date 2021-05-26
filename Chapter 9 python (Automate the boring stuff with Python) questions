@@ -16,9 +16,10 @@ spam.txt is the dir name and  C:\bacon\eggs\spamis the base name
 6. What are the three “mode” arguments that can be passed to the open() function?
 absolute path, absolute path, relative path
 
-
 7. What happens if an existing file is opened in write mode?
+Write mode will overwrite the existing file and start from scratch, just like when you overwrite a variable’s value with a new value
 
 8. What is the difference between the read() and readlines() methods?
+read() method returns the string that is stored in the file as one string but readline() returns the string as a list of string values.
 
 9. What data structure does a shelf value resemble?
