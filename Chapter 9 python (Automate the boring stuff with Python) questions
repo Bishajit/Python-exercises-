@@ -23,3 +23,4 @@ Write mode will overwrite the existing file and start from scratch, just like wh
 read() method returns the string that is stored in the file as one string but readline() returns the string as a list of string values.
 
 9. What data structure does a shelf value resemble?
+ A shelf value resembles a dictionary value
