@@ -1,1 +1,9 @@
+#Copying Files and Folders
+import shutil, os
+os.chdir('C:\\')
+shutil.copy('C:\\spam.txt', 'C:\\delicious')
+shutil.copy('eggs.txt', 'C:\\delicious\\eggs2.txt')
 
+#Moving and Renaming Files and Folders
+import shutil
+shutil.move('C:\\bacon.txt', 'C:\\eggs')
